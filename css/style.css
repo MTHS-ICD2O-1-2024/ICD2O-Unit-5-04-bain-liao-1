@@ -15,7 +15,7 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(224, 85, 85);
+  color: #FF0000;
 }
 
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
@@ -25,13 +25,13 @@
 }
 
 .page-content {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-family: "Times New Roman", Times, monospace;
   font-size: 1.25rem;
 }
 
 body {
-  background-color: rgb(219, 248, 250);
+  background-color: #dbf8fa;
 }
 
 img {
