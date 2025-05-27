@@ -6,12 +6,15 @@
 
 "use scrict"
 
+/**
+ * This function checks if the user is eligible for a student discount.
+ */
 function checkForDiscount() {
   const userAge = parseInt(document.getElementById('user-age').value)
   const dayOfWeek = document.getElementById('day-of-week').value
 
   // process
-  if ((dayOfWeek == 'TUE' || dayOfWeek == 'THU') || (userAge > 12 && userAge < 21)) {
+  if ((dayOfWeek == "Tuesday" || dayOfWeek == "Thursday") || (userAge > 12 && userAge < 21)) {
     document.getElementById('result').innerHTML =
       '<p>You are eligible for student pricing!</p>'
   }
